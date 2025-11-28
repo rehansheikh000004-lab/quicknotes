@@ -5,7 +5,7 @@ import { AuthContext } from "../auth/AuthContext";
 import { useNavigate, Link } from "react-router-dom";
 
 export default function Signup() {
-  const [name,setName] = useState("");
+  const [username,setName] = useState("");
   const [email,setEmail] = useState("");
   const [password,setPassword] = useState("");
   const [err,setErr] = useState("");
