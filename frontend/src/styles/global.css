@@ -1,0 +1,20 @@
+:root {
+  --bg: #0b1220;
+  --card: rgba(255,255,255,0.03);
+  --accent: #00d1ff;
+  --muted: #9fb1c8;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui;background:linear-gradient(180deg,#05060a,#081122);color:#fff;min-height:100vh}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.03)}
+.brand a{color:var(--accent);text-decoration:none;font-weight:700}
+.btn{padding:8px 12px;border-radius:8px;background:var(--accent);color:#000;border:none;margin-left:8px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#fff}
+.center-box{max-width:480px;margin:60px auto;padding:24px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(8px);border:1px solid rgba(255,255,255,0.04)}
+input,textarea{width:100%;padding:10px;margin-top:10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:#fff}
+textarea{min-height:120px;resize:vertical}
+.error{color:#ff8080}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px}
+.note-card{padding:14px;border-radius:12px;color:#000;min-height:120px}
+.note-title{font-weight:700;margin-bottom:8px}
+.muted{color:var(--muted)}
